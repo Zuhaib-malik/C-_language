@@ -108,6 +108,7 @@ void first_function(int x){
     x = x+10;
     cout << "this is first function trying to change the value of x  "<< endl;
 }
+// This Second function can change the value of x by passing to v and then manuputaing the v
 void second_function(int& v){
     v = v+10;
     cout << "this is second function trying to change the value of x  "<<  endl;
